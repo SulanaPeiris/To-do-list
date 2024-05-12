@@ -1,9 +1,9 @@
-package com.example.noteapp
+package com.example.todoapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.noteapp.databinding.ActivityAddNoteBinding // Import the binding class
+import com.example.todoapp.databinding.ActivityAddNoteBinding // Import the binding class
 
 class AddNoteActivity : AppCompatActivity() {
 

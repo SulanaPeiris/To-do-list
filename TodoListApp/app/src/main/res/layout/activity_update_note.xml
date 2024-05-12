@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/lightBlue"
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".UpdateNoteActivity">
@@ -16,43 +16,50 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins"
-        android:text="Edit Note"
-        android:textColor="@color/orange"
-        android:textSize="24sp" />
+        android:text="Edit Task"
+        android:textColor="@color/darkBlue"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/updateSaveButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/baseline_task_alt_24"
-        android:layout_alignParentEnd="true"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
         android:layout_alignTop="@+id/editNoteHeading"
-        android:layout_marginEnd="6dp"/>
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/task_done_svgrepo_com" />
 
     <EditText
         android:id="@+id/updateTitleEditText"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:hint="Enter the title"
-        android:padding="12dp"
-        android:textSize="20sp"
         android:layout_below="@+id/editNoteHeading"
-        android:background="@drawable/orange_border"
         android:layout_marginTop="16dp"
+        android:background="@drawable/orange_border"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins"
+        android:hint="Enter the Task"
         android:maxLines="1"
-        android:fontFamily="@font/poppins"/>
+        android:padding="12dp"
+        android:textColor="@color/midBlue"
+        android:textColorHint="@color/midBlue"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/updateContentEditText"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:hint="Enter the description"
-        android:gravity="top"
-        android:padding="12dp"
-        android:textSize="18sp"
-        android:fontFamily="@font/poppins"
-        android:background="@drawable/orange_border"
         android:layout_below="@+id/updateTitleEditText"
-        android:layout_marginTop="12dp"/>
+        android:layout_marginTop="10dp"
+        android:background="@drawable/orange_border"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:hint="Enter the description"
+        android:padding="12dp"
+        android:textColor="@color/midBlue"
+        android:textColorHint="@color/midBlue"
+        android:textSize="18sp" />
 
 </RelativeLayout>

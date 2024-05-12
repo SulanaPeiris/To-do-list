@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.noteapp"
+    namespace = "com.example.todoapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.noteapp"
+        applicationId = "com.example.todoapp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

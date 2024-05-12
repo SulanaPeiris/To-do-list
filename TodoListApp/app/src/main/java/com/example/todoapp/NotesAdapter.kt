@@ -1,4 +1,4 @@
-package com.example.noteapp
+package com.example.todoapp
 
 import android.content.Context
 import android.content.Intent

@@ -1,10 +1,10 @@
-package com.example.noteapp
+package com.example.todoapp
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.noteapp.databinding.ActivityMainBinding
+import com.example.todoapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

@@ -19,15 +19,15 @@
             android:orientation="horizontal"
             android:layout_marginTop="8dp">
 
-        <TextView
-            android:id="@+id/titleTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Title"
-            android:fontFamily="@font/poppins"
-            android:textColor="@color/orange"
-            android:textSize="18sp"
-            android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Title"
+                android:textColor="@color/darkBlue"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/updateButton"
@@ -35,28 +35,30 @@
                 android:layout_height="24dp"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="30dp"
-                android:src="@drawable/baseline_mode_edit_24"/>
+                android:src="@drawable/edit_3_svgrepo_com" />
 
             <ImageView
                 android:id="@+id/deleteButton"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_alignParentEnd="true"
-                android:src="@drawable/baseline_remove_24"/>
+                android:src="@drawable/rubbish_bin_svgrepo_com__1_" />
 
 
 
 
         </RelativeLayout>
 
-    <TextView
-        android:id="@+id/contentTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Content"
-        android:fontFamily="@font/poppins"
-        android:maxLines="3"
-        android:layout_marginTop="4dp"/>
+            <TextView
+                android:id="@+id/contentTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/poppins"
+                android:maxLines="3"
+                android:text="Content"
+                android:textColor="@color/midBlue"
+                android:textSize="20sp" />
 
         </LinearLayout>
 
